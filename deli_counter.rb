@@ -14,10 +14,6 @@ def line(array)
 end
 
 def take_a_number(array, new_person)
-  if array.length == 0
-    array << new_person
-  puts "Welcome, #{new_person}. You are number 1 in line."
-else 
   array << new_person
   puts "Welcome, #{new_person}. You are number #{array.length} in line."
 end
