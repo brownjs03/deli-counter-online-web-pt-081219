@@ -5,9 +5,9 @@ def line(array)
     current_line = "The line is currently:"
     num = 1 
     array.each do |name|
-     customers = " #{num}. #{name}"
+     customer = " #{num}. #{name}"
      num += 1 
-     current_line << customers
+     current_line << customer
    end
      puts current_line
  end
