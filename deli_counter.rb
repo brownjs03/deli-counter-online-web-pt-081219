@@ -17,7 +17,6 @@ def take_a_number(array, new_person)
   array << new_person
   puts "Welcome, #{new_person}. You are number #{array.length} in line."
 end
-end
 
 def now_serving(array)
 if array.length == 0 
